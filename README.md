@@ -32,5 +32,5 @@ Veja os arquivos:
 ## 🔗 Link para entrega
 
 📎 Acesse este repositório no GitHub:  
-👉 [https://github.com/SEU_USUARIO/ajax-comparativo](https://github.com/LuisBSB23/ajax-comparativo)
+👉 (https://github.com/LuisBSB23/ajax-comparativo)
 
