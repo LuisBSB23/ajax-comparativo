@@ -4,6 +4,7 @@ Este repositório contém uma pesquisa e exemplos de código demonstrando difere
 
 ## Integrantes do grupo:
 Bruno Nogueira Alves Ferreira
+
 Eustaque Ferreira da Silva Neto
 Luis Otavio Ferreira Dias
 Iuri Carvalho de Moraes Ramos
