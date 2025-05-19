@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head><title>AJAX com Promises</title></head>
+<body>
+  <h1>Usando Promises</h1>
+  <button onclick="carregarTexto()">Carregar</button>
+  <div id="conteudo"></div>
+
+  <script>
+    function getTexto(url) {
+      return new Promise(function(resolve, reject) {
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', url);
+        xhr.onload = () => (xhr.status === 200) ? resolve(xhr.responseText) : reject(xhr.statusText);
+        xhr.onerror = () => reject('Erro na requisição');
+        xhr.send();
+      });
+    }
+
+    function carregarTexto() {
+      getTexto('dados.txt')
+        .then(data => {
+          document.getElementById('conteudo').innerHTML = data;
+        })
+        .catch(err => console.error('Erro:', err));
+    }
+  </script>
+</body>
+</html>

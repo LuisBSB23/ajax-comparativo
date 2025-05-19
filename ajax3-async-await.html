@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>AJAX com Async/Await</title></head>
+<body>
+  <h1>Usando Async/Await</h1>
+  <button onclick="carregarTexto()">Carregar</button>
+  <div id="conteudo"></div>
+
+  <script>
+    async function carregarTexto() {
+      try {
+        const response = await fetch('dados.txt');
+        const data = await response.text();
+        document.getElementById('conteudo').innerHTML = data;
+      } catch (error) {
+        console.error('Erro:', error);
+      }
+    }
+  </script>
+</body>
+</html>
