@@ -2,6 +2,13 @@
 
 Este repositório contém uma pesquisa e exemplos de código demonstrando diferentes formas de realizar requisições AJAX com JavaScript moderno.
 
+## Integrantes do grupo:
+Bruno Nogueira Alves Ferreira
+Eustaque Ferreira da Silva Neto
+Luis Otavio Ferreira Dias
+Iuri Carvalho de Moraes Ramos
+Yago Magalhães Da Silva
+
 ## 📘 Pesquisa Comparativa
 
 | Tecnologia         | Lançamento     | Sintaxe           | Suporte Promises | Facilidade de uso | Controle de erros  | Popularidade Atual |
